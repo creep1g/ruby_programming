@@ -15,7 +15,7 @@ def bubble_sort array
 end
 
 
-def bubble_sort_by array, &block
+def bubble_sort_by array
     n = array.length
     n.times do 
         array.each_with_index do |x, i|
